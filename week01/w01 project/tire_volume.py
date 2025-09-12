@@ -13,7 +13,7 @@ volume_rounded = round(volume, 2)
 
 print(f"The approximate volume is {volume_rounded} litres")
 
-current_date = datetime.now().strftime("%y-%m-%d")
+current_date = datetime.now().strftime("%Y-%m-%d")
 
 buy_tire = input("Would you like to buy tires with these diamensions? (yes/no): ").strip().lower()
 phone_number = ""
